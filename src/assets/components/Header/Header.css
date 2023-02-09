@@ -1,0 +1,29 @@
+.header {
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.content-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.logo {
+  background: rgb(34,195,80);
+  background: linear-gradient(297deg, rgba(34,195,80,1) 0%, rgba(223,45,253,1) 100%);
+  height: 4.4rem;
+  width: 3.8rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+  font-family: fantasy;
+  clip-path: polygon(48% 0%, 52% 0%, 97% 23%, 100% 27%, 100% 73%, 97% 77%, 52% 100%, 48% 100%, 3% 77%, 0% 73%, 0% 27%, 3% 23%);
+}

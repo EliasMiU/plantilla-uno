@@ -1,0 +1,31 @@
+.contain-idioma {
+  position: absolute;
+  right: 0;
+}
+
+.menu-idioma > li {
+  color: #fff;
+  position: relative;
+  border: 0.1rem solid #fff;
+  padding: 0.2rem 1.3rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.menu-idioma ul {
+  display: none;
+  position: absolute;
+  
+}
+
+.menu-idioma ul li {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.menu-idioma li:hover ul {
+ display: flex;
+ flex-direction: column;
+ gap: 0.2rem;
+ padding-top: 0.5rem;
+}

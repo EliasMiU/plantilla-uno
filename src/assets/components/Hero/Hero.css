@@ -1,0 +1,30 @@
+.hero {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.up-title {
+  font-family: fantasy;
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 5rem;
+  line-height: 5.7rem;
+  font-family: fantasy;
+  margin-bottom: 7rem;
+}
+
+.btn-login-hero {
+  border-radius: 3rem;
+  border: 0.3rem solid #fff;
+  padding: 0.5rem 3.5rem;
+  font-size: 1.5rem;
+  width: fit-content;
+}

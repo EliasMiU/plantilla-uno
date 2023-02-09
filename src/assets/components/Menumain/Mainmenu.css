@@ -1,0 +1,16 @@
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.main-menu li {
+  color: #cdcdcd;
+  padding: 0.8rem 0.3rem;
+}
+
+.main-menu li:hover {
+  color: #fff;
+  cursor: pointer;
+}
